@@ -64,6 +64,6 @@ for row in game_sheet.iter_rows(min_row=2, max_row=game_sheet.max_row, min_col=1
     else:
         print(f"Year not found for {game_name}") 
         exit(1) # Exiting so as not to alter the file
-# Save the workbook 
-preserve_format.save('Master_List.xlsx')
+
+preserve_format.save('Master_List.xlsx') # Save the workbook
 print('Done')
